@@ -13,4 +13,8 @@
     NSLog(@">>> Message: %@", message);
 }
 
+- (void)logNumber:(NSNumber *)number {
+    NSLog(@">>> Number: %@", number);
+}
+
 @end
