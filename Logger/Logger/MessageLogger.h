@@ -12,7 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface MessageLogger : NSObject
 
 - (void)logMessage:(NSString *)message;
-- (void)logNumber:(NSNumber *)number;
 
 @end
 
